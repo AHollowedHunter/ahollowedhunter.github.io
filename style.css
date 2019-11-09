@@ -1,14 +1,68 @@
 body {
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   color: #ffffff;
+   font-family: Constantia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: ghostwhite;
    background: #1E1E1E;
    margin: 0;
+   font-size: 2em;
 }
 
-.flex-container {
+.flex-center-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
+}
+
+.main-div {
+   max-width: 840px;
+   padding: 84px;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+a:link, a:visited {
+   text-decoration: none;
+   color: ghostwhite;
+}
+
+a:hover, a:hover {
+   color: lightgray;
+}
+
+#About {
+   text-align: right;
+}
+
+#Links {
+   word-wrap: none;
+}
+
+.link-icon {
+   max-height: 1em;
+}
+@keyframes fade-in {
+   0%   {opacity: 0;}
+   100% {opacity: 1;}
+ }
+
+.fade-in {
+   opacity: 0;
+   animation-name: fade-in;
+   animation-duration: 1000ms;
+   animation-fill-mode: forwards;
+}
+
+.delay-500ms {
+   animation-delay: 500ms;
+}
+
+.delay-1000ms {
+   animation-delay: 1000ms;
+}
+
+.delay-1500ms {
+   animation-delay: 1500ms;
+}
