@@ -10,12 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 100vh;
 }
 
 .main-div {
-   max-width: 840px;
-   padding: 84px;
+   width: 42vw;
+   min-width: 400px;
+   padding: 0 3vw;
 }
 
 ul {
