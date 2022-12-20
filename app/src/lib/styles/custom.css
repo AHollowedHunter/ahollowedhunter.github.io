@@ -1,0 +1,27 @@
+@import '../fonts/fira_code/fira_code.css';
+@import '../fonts/fira_sans/fira.css';
+@import '../fonts/merriweather/merriweather.css';
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	color: ghostwhite;
+	background: #1e1e1e;
+	margin: 0;
+	font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Merriweather, Constantia, Cambria, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 400;
+}
+
+code {
+	background-color: #3d3d3d;
+	color: ghostwhite;
+	font-family: 'Fira Code', monospace;
+}
