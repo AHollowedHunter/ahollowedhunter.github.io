@@ -5,21 +5,21 @@ const data: Data = {
 		{
 			site: 'GitHub',
 			username: 'AHollowedHunter',
-			icon: 'github-white.ico',
+			icon: 'github-mark-white.svg',
 			url: 'https://github.com/AHollowedHunter',
 			emoji: '🐈'
 		},
 		{
 			site: 'Instagram',
 			username: '@acave.photos',
-			icon: 'instagram.png',
+			icon: 'instagram-white.svg',
 			url: 'https://www.instagram.com/acave.photos/',
 			emoji: '📷'
 		},
 		{
 			site: 'LinkedIn',
 			username: 'acave-dev',
-			icon: 'linkedin.png',
+			icon: 'linkedin-white.svg',
 			url: 'https://www.linkedin.com/in/acave-dev',
 			emoji: '💼'
 		},
