@@ -3,6 +3,8 @@
 	import '$lib/styles/skeleton.css';
 	import '$lib/styles/custom.css';
 	import Links from '$lib/components/Links.svelte';
+
+	import data from '$data';
 </script>
 
 <div
@@ -16,7 +18,7 @@ align-items: center; display: flex; height: 100vh;"
 				<h4>BSc Software Engineering Bournemouth University</h4>
 			</div>
 			<div class="one-half column">
-				<Links />
+				<Links links={data.links} />
 			</div>
 		</div>
 	</div>
