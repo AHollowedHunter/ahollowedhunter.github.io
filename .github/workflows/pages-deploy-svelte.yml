@@ -1,5 +1,10 @@
 name: Deploy Pages
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [ main ]
@@ -23,20 +28,17 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Build ./app
+      - name: npm install
         working-directory: ./app
         run: npm ci
 
-      - name: Build ./app
+      - name: Build app
         working-directory: ./app
         run: npm run build
-        
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
-          # Artifact name
-          # name: # optional, default is github-pages
-          # Path of the directory containing the static assets.
           path: app/build/
 
       - name: Deploy to GitHub Pages
