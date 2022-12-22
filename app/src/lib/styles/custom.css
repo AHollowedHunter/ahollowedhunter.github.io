@@ -2,6 +2,13 @@
 @import '../fonts/fira_sans/fira.css';
 @import '../fonts/merriweather/merriweather.css';
 
+/* General Skeleton Overrides */
+
+.container {
+	max-width: 1080px;
+}
+
+/* Other */
 body {
 	font-family: 'Fira Sans', sans-serif;
 	color: ghostwhite;
