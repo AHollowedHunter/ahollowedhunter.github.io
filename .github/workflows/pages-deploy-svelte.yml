@@ -1,4 +1,4 @@
-name: Pages Deploy from Svelte
+name: Deploy Pages
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
         working-directory: ./app
         shell: sh
         run: |
-          tar -czf github-pages.tar.gz ./build
+          tar -czf github-pages ./build
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
