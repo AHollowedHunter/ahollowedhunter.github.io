@@ -30,13 +30,7 @@ jobs:
       - name: Build ./app
         working-directory: ./app
         run: npm run build
-
-      - name: Package build
-        shell: sh
-        run: |
-          tar -czf github-pages ./app/build
-          ls -la
-
+        
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
@@ -44,3 +38,7 @@ jobs:
           # name: # optional, default is github-pages
           # Path of the directory containing the static assets.
           path: app/build/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
