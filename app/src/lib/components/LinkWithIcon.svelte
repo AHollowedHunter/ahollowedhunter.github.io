@@ -4,35 +4,54 @@
 	export let link: Link;
 </script>
 
-<a class="button button-primary" rel={link.rel ?? ''} target="_{link.site}" href={link.url}>
-	<img src="images/{link.icon}" alt="{link.site} Icon" />
-	&nbsp;{link.username}
+<a rel={link.rel ?? ''} target="_{link.site}" href={link.url}>
+	<div class="button button-primary">
+		<img src="images/{link.icon}" alt="{link.site} Icon" />
+		<span>{link.username}</span>
+	</div>
 </a>
 
 <style>
 	a {
 		text-decoration: none;
-		color: ghostwhite;
 	}
+
+	.button {
+		color: ghostwhite;
+		font-size: 1em;
+		font-weight: 400;
+		text-transform: none;
+		max-width: fit-content;
+		overflow-wrap: break-word;
+		white-space: normal;
+		display: flex;
+	}
+
+	.button.button-primary {
+		background-color: #363636;
+		border-color: #363636;
+		height: auto;
+		padding: 4px 16px;
+	}
+
+	.button.button-primary:hover {
+		background-color: #424242;
+		border-color: #424242;
+	}
+
 	img {
-		max-height: 1em;
+		align-self: center;
+		max-height: 1.5em;
 		vertical-align: middle;
 		/* Make white ghostwhite (#F8F*FF) */
 		filter: sepia(77%) saturate(690%) hue-rotate(180deg) brightness(99%) contrast(106%);
 	}
-	.button {
-		font-weight: 400;
-		text-transform: none;
-	}
-	.button.button-primary {
-		background-color: #363636;
-		border-color: #363636;
-		font-size: larger;
-		height: auto;
-		padding: 4px 16px;
-	}
-	.button.button-primary:hover {
-		background-color: #424242;
-		border-color: #424242;
+
+	span {
+		flex: 1;
+		padding-left: 0.5em;
+		text-align: left;
+		text-decoration: none;
+		word-break: break-all;
 	}
 </style>
