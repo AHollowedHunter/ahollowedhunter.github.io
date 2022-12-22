@@ -32,11 +32,9 @@ jobs:
         run: npm run build
 
       - name: Package build
-        working-directory: ./app
         shell: sh
         run: |
-          tar -czf github-pages ./build
-          ls -la
+          tar -czf github-pages ./app/build
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
