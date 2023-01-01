@@ -10,18 +10,18 @@ const data: Data = {
 			emoji: '🐈'
 		},
 		{
-			site: 'Instagram',
-			username: '@acave.photos',
-			icon: 'instagram-white.svg',
-			url: 'https://www.instagram.com/acave.photos/',
-			emoji: '📷'
-		},
-		{
 			site: 'LinkedIn',
 			username: 'acave-dev',
 			icon: 'linkedin-white.svg',
 			url: 'https://www.linkedin.com/in/acave-dev',
 			emoji: '💼'
+		},
+		{
+			site: 'Instagram',
+			username: '@acave.photos',
+			icon: 'instagram-white.svg',
+			url: 'https://www.instagram.com/acave.photos/',
+			emoji: '📷'
 		},
 		{
 			site: 'Mastodon',

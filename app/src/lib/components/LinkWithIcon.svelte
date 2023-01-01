@@ -7,7 +7,7 @@
 <a rel={link.rel ?? ''} target="_{link.site}" href={link.url}>
 	<div class="button button-primary">
 		<img src="images/{link.icon}" alt="{link.site} Icon" />
-		<span>{link.username}</span>
+		<span>{link.site}</span>
 	</div>
 </a>
 
@@ -25,13 +25,13 @@
 		overflow-wrap: break-word;
 		white-space: normal;
 		display: flex;
+		height: auto;
+		padding: 8px 16px;
 	}
 
 	.button.button-primary {
 		background-color: #363636;
 		border-color: #363636;
-		height: auto;
-		padding: 4px 16px;
 	}
 
 	.button.button-primary:hover {
@@ -43,7 +43,7 @@
 		align-self: center;
 		max-height: 1.5em;
 		vertical-align: middle;
-		/* Make white ghostwhite (#F8F*FF) */
+		/* Make white ghostwhite (#F8F8FF) */
 		filter: sepia(77%) saturate(690%) hue-rotate(180deg) brightness(99%) contrast(106%);
 	}
 
