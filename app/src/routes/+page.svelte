@@ -14,7 +14,7 @@
 			<h5>Software Engineer</h5>
 		</div>
 		<div class="three columns">
-			<h5>Links</h5>
+			<!-- <h5>Links</h5> -->
 			<Links links={data.links} />
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 
 <style>
 	.container {
-		margin-top: 100px;
+		margin-top: 10rem;
 	}
 	.about {
 	}
