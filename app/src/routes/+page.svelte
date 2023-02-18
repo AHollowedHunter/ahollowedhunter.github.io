@@ -1,10 +1,10 @@
 <script>
-	import '$lib/styles/normalize.css';
-	import '$lib/styles/skeleton.css';
-	import '$lib/styles/custom.css';
-	import Links from '$lib/components/Links.svelte';
+	import "$lib/styles/normalize.css";
+	import "$lib/styles/skeleton.css";
+	import "$lib/styles/custom.css";
+	import Links from "$lib/components/Links.svelte";
 
-	import data from '$data';
+	import data from "$data";
 </script>
 
 <div class="container">

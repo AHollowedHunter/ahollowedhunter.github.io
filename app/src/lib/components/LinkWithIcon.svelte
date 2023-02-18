@@ -1,10 +1,10 @@
 <script lang="ts">
-	import type { Link } from '$lib/types/data';
+	import type { Link } from "$lib/types/data";
 
 	export let link: Link;
 </script>
 
-<a rel={link.rel ?? ''} target="_{link.site}" href={link.url}>
+<a rel={link.rel ?? ""} target="_{link.site}" href={link.url}>
 	<div class="button button-primary">
 		<img src="images/{link.icon}" alt="{link.site} Icon" />
 		<span>{link.site}</span>

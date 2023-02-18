@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Link } from '$lib/types/data';
-	import LinkWithIcon from './LinkWithIcon.svelte';
+	import type { Link } from "$lib/types/data";
+	import LinkWithIcon from "./LinkWithIcon.svelte";
 
 	export let links: Link[];
 </script>
