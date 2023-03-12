@@ -18,6 +18,15 @@
 			<Links links={data.links} />
 		</div>
 	</div>
+	<div class="row">
+		<div class="full-width columns">
+			<img
+				class="ghchart"
+				src="https://ghchart.rshah.org/666666/ahollowedhunter"
+				alt="ahollowedhunter's Github chart"
+			/>
+		</div>
+	</div>
 </div>
 
 <style>
@@ -25,5 +34,8 @@
 		margin-top: 10rem;
 	}
 	.about {
+	}
+	.ghchart {
+		filter: invert();
 	}
 </style>
