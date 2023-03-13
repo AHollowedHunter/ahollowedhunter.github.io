@@ -29,7 +29,7 @@
 			{/if}
 		</div>
 	</div>
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col">
 			<h4>GitHub activity</h4>
 			<div class="d-flex justify-content-center">
@@ -40,7 +40,7 @@
 				/>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <style>
