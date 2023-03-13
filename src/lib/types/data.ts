@@ -1,5 +1,6 @@
 export type Data = {
-	links: Link[];
+	links?: Link[];
+	projects?: Project[];
 };
 
 export type Link = {
@@ -9,4 +10,11 @@ export type Link = {
 	url: string;
 	rel?: string;
 	emoji?: string;
+};
+
+export type Project = {
+	title: string;
+	description: string;
+	url: string;
+	img: string;
 };

@@ -7,7 +7,7 @@ const config = {
 
 	resolve: {
 		alias: {
-			$data: path.resolve("src/data.ts")
+			$data: path.resolve("./src/data.ts")
 		}
 	}
 };

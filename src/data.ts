@@ -31,6 +31,15 @@ const data: Data = {
 			rel: "me",
 			emoji: "🐘"
 		}
+	],
+	projects: [
+		{
+			title: "MagusBot",
+			description:
+				"A Discord bot that provides information about the game DotA 2; such as the latest news, live e-sports info, parsed patch notes, and other game information.",
+			url: "https://magusbot.xyz",
+			img: "https://magusbot.xyz/images/magus.png"
+		}
 	]
 };
 

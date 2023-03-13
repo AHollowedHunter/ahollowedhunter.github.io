@@ -16,5 +16,11 @@
 <style>
 	ul {
 		list-style: none;
+		padding: 0;
+		max-width: fit-content;
+	}
+
+	li {
+		padding: 0.5rem;
 	}
 </style>

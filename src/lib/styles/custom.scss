@@ -1,8 +1,16 @@
-@import "../fonts/fira_code/fira_code.css";
-@import "../fonts/fira_sans/fira.css";
-@import "../fonts/merriweather/merriweather.css";
 
-/* General Skeleton Overrides */
+@import "../../../static/fonts/fira_sans/fira.css";
+@import "../../../static/fonts/fira_code/fira_code.css";
+@import "../../../static/fonts/merriweather/merriweather.css";
+
+// Override Bootstrap variables FIRST
+$body-color: ghostwhite;
+$light: #f8f8ff;
+$dark: #363636;
+
+// THEN import bootstrap
+@import "bootstrap/scss/bootstrap";
+// AFTER add global customisations
 
 .container {
 	max-width: 1080px;
@@ -14,7 +22,6 @@ body {
 	color: ghostwhite;
 	background: #1e1e1e;
 	margin: 0;
-	font-size: 2em;
 	max-width: 100vw;
 	min-height: 100vh;
 
