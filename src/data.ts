@@ -25,7 +25,7 @@ const data: Data = {
 		},
 		{
 			site: "Mastodon",
-			username: "@AHollowedHunter@universeodon.com",
+			username: "@AHollowedHunter@techhub.social",
 			icon: "mastodon.svg",
 			url: "https://techhub.social/@AHollowedHunter",
 			rel: "me",

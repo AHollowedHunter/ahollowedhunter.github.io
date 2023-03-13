@@ -1,7 +1,16 @@
 <script lang="ts">
 	import type { Link } from "$lib/types/data";
+	import { onMount } from "svelte";
 
 	export let link: Link;
+
+	onMount(() => {
+		const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+		const tooltipList = [...tooltipTriggerList].map(
+			//@ts-ignore 2686
+			(tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+		);
+	});
 </script>
 
 <a
@@ -9,6 +18,9 @@
 	rel={link.rel ?? ""}
 	target="_{link.site}"
 	href={link.url}
+	data-bs-toggle="tooltip"
+	data-bs-title={link.username}
+	data-bs-placement="left"
 >
 	<img src="images/{link.icon}" alt="{link.site} Icon" />
 	<span class="text-nowrap fs-5">{link.site}</span>
