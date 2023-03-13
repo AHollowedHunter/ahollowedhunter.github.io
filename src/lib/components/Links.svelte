@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Link } from '$lib/types/data';
-	import LinkWithIcon from './LinkWithIcon.svelte';
+	import type { Link } from "$lib/types/data";
+	import LinkWithIcon from "./LinkWithIcon.svelte";
 
 	export let links: Link[];
 </script>
@@ -16,5 +16,11 @@
 <style>
 	ul {
 		list-style: none;
+		padding: 0;
+		max-width: fit-content;
+	}
+
+	li {
+		padding: 0.5rem;
 	}
 </style>
