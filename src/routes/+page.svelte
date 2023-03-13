@@ -8,11 +8,12 @@
 <div class="container-md mt-5">
 	<div class="row justify-content-end mb-3">
 		<div class="col-12 col-md-3 align-self-center text-center">
-			<img class="avatar w-100" src="https://avatars.githubusercontent.com/u/45659989?v=4" alt="Me" />
+			<!-- <img class="avatar w-100" src="https://avatars.githubusercontent.com/u/45659989?v=4" alt="Me" /> -->
 		</div>
 		<div class="col-12 col-md-6 align-self-center my-3">
 			<h1>Ashley Cave</h1>
 			<h4>Software Engineer</h4>
+			<br>
 			<p>Hello I'm Ashley, a graduate software engineer based in the UK.</p>
 		</div>
 		<div class="col-12 col-md-3 align-self-center">
