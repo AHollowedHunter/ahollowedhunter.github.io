@@ -38,7 +38,14 @@ const data: Data = {
 			description:
 				"A Discord bot that provides information about the game DotA 2; such as the latest news, live e-sports info, parsed patch notes, and other game information.",
 			url: "https://magusbot.xyz",
-			img: "https://magusbot.xyz/images/magus.png"
+			img: "images/magus.png"
+		},
+		{
+			title: "National Trust Discover App",
+			description:
+				"A Redesigned National Trust app, written in TypeScript with React Native/Expo. This was a Ubiquitous Computing project for University.",
+			url: "https://github.com/AHollowedHunter/National-Trust-App-Ubiquitous-Computing",
+			img: "images/nt-app.png"
 		}
 	]
 };
