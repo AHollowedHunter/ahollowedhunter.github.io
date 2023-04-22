@@ -17,7 +17,7 @@
 					<h5 class="card-title">{project.title}</h5>
 					<p class="card-text">{project.description}</p>
 					{#each project.links as link}
-						<a href={link.url} target="_{project.title}" class="btn btn-light"
+						<a href={link.url} target="_{link.title}" class="btn btn-light"
 							>{link.title}</a
 						>
 						&nbsp;
