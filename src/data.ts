@@ -37,14 +37,22 @@ const data: Data = {
 			title: "MagusBot",
 			description:
 				"A Discord bot that provides information about the game DotA 2; such as the latest news, live e-sports info, parsed patch notes, and other game information.",
-			url: "https://magusbot.xyz",
+			links: [
+				{ url: "https://magusbot.xyz", title: "Website" },
+				{ url: "https://github.com/AHollowedHunter/Magus", title: "Repository" }
+			],
 			img: "images/magus.png"
 		},
 		{
 			title: "National Trust Discover App",
 			description:
 				"A Redesigned National Trust app, written in TypeScript with React Native/Expo. This was a Ubiquitous Computing project for University.",
-			url: "https://github.com/AHollowedHunter/National-Trust-App-Ubiquitous-Computing",
+			links: [
+				{
+					url: "https://github.com/AHollowedHunter/National-Trust-App-Ubiquitous-Computing",
+					title: "Repository"
+				}
+			],
 			img: "images/nt-app.png"
 		}
 	]
