@@ -15,6 +15,11 @@ export type Link = {
 export type Project = {
 	title: string;
 	description: string;
-	url: string;
+	links: ProjectLink[];
 	img: string;
 };
+
+export type ProjectLink = {
+	url: string;
+	title: string;
+}
