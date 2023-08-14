@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="256" height="256" version="1.2" viewBox="0 0 256 256" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" version="1.2" viewBox="0 0 256 256"
+  xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny-ps"
+  xmlns="http://www.w3.org/2000/svg">
   <title>acave-dev-logo</title>
   <defs>
-    <linearGradient id="linearGradient1230" x1="31.685" x2="254.63" y1="77.547" y2="131.23" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linearGradient1230" x1="31.685" x2="254.63" y1="77.547" y2="131.23"
+      gradientUnits="userSpaceOnUse">
       <stop stop-color="#293680" offset=".19137" />
       <stop stop-color="#654a8b" offset=".86927" />
     </linearGradient>
-    <linearGradient id="linearGradient5207" x1="113.34" x2="91.772" y1="113.34" y2="131.23" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linearGradient5207" x1="113.34" x2="91.772" y1="113.34" y2="131.23"
+      gradientUnits="userSpaceOnUse">
       <stop stop-color="#272f73" stop-opacity=".71084" offset=".19137" />
       <stop stop-color="#422c59" stop-opacity=".48594" offset=".86927" />
     </linearGradient>
@@ -16,9 +20,12 @@
     <g fill="#1e1e1e">
       <rect width="256" height="256" rx="32" ry="32" fill="#1e1e1e" stroke-width="1.2094" />
     </g>
-    <rect x="80.3" y="90.854" width="37.167" height="85.348" fill="url(#linearGradient5207)" stroke-width="1.2094" />
-    <text x="130.05624" y="276.38214" fill="url(#linearGradient1230)" font-family="'Noto Sans'" font-size="412.37px" font-weight="bold" stroke-width="1.2094" text-align="center" text-anchor="middle">
-      <tspan x="130.05624" y="276.38214" fill="url(#linearGradient1230)" font-family="'Noto Sans'" font-size="412.37px" font-weight="bold" stroke-width="1.2094">&gt;</tspan>
+    <rect x="80.3" y="90.854" width="37.167" height="85.348" fill="url(#linearGradient5207)"
+      stroke-width="1.2094" />
+    <text x="130.05624" y="276.38214" fill="url(#linearGradient1230)" font-family="'Noto Sans'"
+      font-size="412.37px" font-weight="bold" stroke-width="1.2094" text-align="center"
+      text-anchor="middle">
+      &gt;
     </text>
   </g>
 </svg>
