@@ -7,24 +7,10 @@
       <stop stop-color="#293680" offset=".19137" />
       <stop stop-color="#654a8b" offset=".86927" />
     </linearGradient>
-    <filter id="filter4418" x="-.12" y="-.11065" width="1.24" height="1.2213" color-interpolation-filters="sRGB">
-      <feGaussianBlur result="result6" stdDeviation="10" />
-      <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8" />
-      <feComposite in="result8" in2="SourceAlpha" result="result9" />
-      <feColorMatrix result="result10" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-      <feBlend in="result10" in2="result6" />
-    </filter>
     <linearGradient id="linearGradient5207" x1="113.34" x2="91.772" y1="113.34" y2="131.23" gradientUnits="userSpaceOnUse">
       <stop stop-color="#272f73" stop-opacity=".71084" offset=".19137" />
       <stop stop-color="#422c59" stop-opacity=".48594" offset=".86927" />
     </linearGradient>
-    <filter id="filter5221" x="-.64573" y="-.2812" width="2.2915" height="1.5624" color-interpolation-filters="sRGB">
-      <feGaussianBlur result="result6" stdDeviation="10" />
-      <feComposite in="SourceGraphic" in2="result6" operator="atop" result="result8" />
-      <feComposite in="result8" in2="SourceAlpha" result="result9" />
-      <feColorMatrix result="result10" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 " />
-      <feBlend in="result10" in2="result6" />
-    </filter>
   </defs>
   <g>
     <g fill="#1e1e1e">
