@@ -1,6 +1,7 @@
 export type Data = {
 	links?: Link[];
 	projects?: Project[];
+	shields?: Shield[];
 };
 
 export type Link = {
@@ -22,4 +23,9 @@ export type Project = {
 export type ProjectLink = {
 	url: string;
 	title: string;
-}
+};
+
+export type Shield = {
+	text: string;
+	uri: string;
+};
