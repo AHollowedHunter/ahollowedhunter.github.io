@@ -4,7 +4,7 @@
 	export let projects: Project[];
 </script>
 
-<div class="row mb-5">
+<div class="row">
 	{#each projects as project}
 		<div class="col-12 col-sm-6 align-self-center pt-3 mx-auto">
 			<div class="card text-bg-dark">
