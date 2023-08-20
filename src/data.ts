@@ -10,6 +10,14 @@ const data: Data = {
 			emoji: "🐈"
 		},
 		{
+			site: "Mastodon",
+			username: "@AHollowedHunter@techhub.social",
+			icon: "mastodon.svg",
+			url: "https://techhub.social/@AHollowedHunter",
+			rel: "me",
+			emoji: "🐘"
+		},
+		{
 			site: "LinkedIn",
 			username: "acave-dev",
 			icon: "linkedin-white.svg",
@@ -22,14 +30,6 @@ const data: Data = {
 			icon: "instagram-white.svg",
 			url: "https://www.instagram.com/acave.photos/",
 			emoji: "📷"
-		},
-		{
-			site: "Mastodon",
-			username: "@AHollowedHunter@techhub.social",
-			icon: "mastodon.svg",
-			url: "https://techhub.social/@AHollowedHunter",
-			rel: "me",
-			emoji: "🐘"
 		}
 	],
 	projects: [
