@@ -2,7 +2,7 @@
 	"subject": "acct:AHollowedHunter@techhub.social",
 	"aliases": [
 		"https://techhub.social/@AHollowedHunter",
-		"https://https://techhub.social/users/AHollowedHunter"
+		"https://techhub.social/users/AHollowedHunter"
 	],
 	"links": [
 		{
@@ -13,7 +13,7 @@
 		{
 			"rel": "self",
 			"type": "application/activity+json",
-			"href": "https://https://techhub.social/users/AHollowedHunter"
+			"href": "https://techhub.social/users/AHollowedHunter"
 		},
 		{
 			"rel": "http://ostatus.org/schema/1.0/subscribe",
