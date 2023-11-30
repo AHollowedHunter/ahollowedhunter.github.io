@@ -44,6 +44,15 @@ const data: Data = {
 			img: "images/magus.png"
 		},
 		{
+			title: "Steam PowerToys Run Plugin",
+			description:
+				"A plugin for PowerToys Run that adds Steam commands and shortcuts. Quickly swap your online status, or open your friends list quickly.",
+			links: [
+				{ url: "https://github.com/AHollowedHunter/PowerToys.Run.Plugin.Steam", title: "Repository" }
+			],
+			img: "images/steam-powertoys-run-plugin.png"
+		},
+		{
 			title: "National Trust Discover App",
 			description:
 				"A Redesigned National Trust app, written in TypeScript with React Native/Expo. This was a Ubiquitous Computing project for University.",
