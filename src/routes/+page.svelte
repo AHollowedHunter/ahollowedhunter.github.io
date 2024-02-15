@@ -50,18 +50,6 @@
 			</div>
 		</div>
 	{/if}
-	<div class="row">
-		<div class="col">
-			<h4>GitHub activity</h4>
-			<div class="d-flex justify-content-center">
-				<img
-					class="ghchart"
-					src="https://ghchart.rshah.org/070700/ahollowedhunter"
-					alt="ahollowedhunter's Github activity chart"
-				/>
-			</div>
-		</div>
-	</div>
 </div>
 
 <style>
