@@ -2,7 +2,11 @@
 	import type { Shield } from "$lib/types/data";
 	import LinkWithIcon from "./LinkWithIcon.svelte";
 
-	export let shields: Shield[];
+	interface Props {
+		shields: Shield[];
+	}
+
+	let { shields }: Props = $props();
 </script>
 
 <ul>

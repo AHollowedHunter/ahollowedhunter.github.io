@@ -2,7 +2,11 @@
 	import type { Link } from "$lib/types/data";
 	import LinkWithIcon from "./LinkWithIcon.svelte";
 
-	export let links: Link[];
+	interface Props {
+		links: Link[];
+	}
+
+	let { links }: Props = $props();
 </script>
 
 <ul>

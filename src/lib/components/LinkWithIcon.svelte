@@ -2,7 +2,11 @@
 	import type { Link } from "$lib/types/data";
 	import { onMount } from "svelte";
 
-	export let link: Link;
+	interface Props {
+		link: Link;
+	}
+
+	let { link }: Props = $props();
 
 	onMount(() => {
 		const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
